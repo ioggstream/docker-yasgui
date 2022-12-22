@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e -o pipefail
 
 if [ "$ENABLE_ENDPOINT_SELECTOR" == "true" ];
 then

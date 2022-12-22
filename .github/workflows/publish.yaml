@@ -2,12 +2,12 @@ name: CI Test and Publish Workflow
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths-ignore:
       - '**/*.md'
       - '**/*.txt'
   pull_request:
-    branches: [main]
+    branches: [master]
     paths-ignore:
       - '**/*.md'
       - '**/*.txt'

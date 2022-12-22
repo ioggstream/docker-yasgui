@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   test:
+    user: "1001"
     build: .
     environment:
     - DEFAULT_SPARQL_ENDPOINT=https://virtuoso-d3fend.apps.ocp.partec.lab/sparql
